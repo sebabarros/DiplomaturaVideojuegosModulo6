@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clase 1 del módulo integrador de la Diplomatura en Desarrollo de Videojuegos.">
+  <meta name="theme-color" content="#111827">
+  <title>Clase 1 · Módulo integrador</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111827'/%3E%3Cpath d='M18 20h28v24H18z' fill='none' stroke='%23c7f464' stroke-width='6'/%3E%3Ccircle cx='27' cy='32' r='3' fill='%23ff6b4a'/%3E%3Ccircle cx='38' cy='28' r='3' fill='%23f7f1e3'/%3E%3Ccircle cx='42' cy='35' r='3' fill='%23f7f1e3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#deck">Saltar a la presentación</a>
+
+  <header class="topbar" aria-label="Controles de la presentación">
+    <button class="brand" id="homeButton" type="button" aria-label="Volver al inicio">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Módulo integrador</span>
+    </button>
+    <span class="class-label">Clase 01</span>
+    <div class="toolbar">
+      <button id="overviewButton" type="button" aria-label="Ver todas las diapositivas" title="Vista general (O)">Vista</button>
+      <button id="notesButton" type="button" aria-label="Mostrar notas docentes" aria-pressed="false" title="Notas (N)">Notas</button>
+      <button id="fullscreenButton" type="button" aria-label="Pantalla completa" title="Pantalla completa (F)">Pantalla completa</button>
+    </div>
+  </header>
+
+  <main id="deck" class="deck" aria-live="polite">
+    <section class="slide title-slide is-active" data-title="Módulo integrador">
+      <div class="slide-number">00</div>
+      <p class="eyebrow">Diplomatura en Desarrollo de Videojuegos</p>
+      <h1>Módulo<br><span>integrador</span></h1>
+      <p class="lede">Tres semanas para convertir disciplinas separadas en un equipo que publica un juego.</p>
+      <div class="title-meta">
+        <span>Clase 1</span><span>3 semanas</span><span>1 juego</span>
+      </div>
+      <aside class="speaker-notes">Abrir con una pregunta: “¿Qué tiene que pasar para que arte, programación y diseño dejen de ser tres áreas y se conviertan en un equipo?”. Presentar el módulo como un espacio de integración, no como un examen final.</aside>
+    </section>
+
+    <section class="slide" data-title="El desafío">
+      <div class="slide-number">01</div>
+      <p class="eyebrow">Clase 1 · Inicio</p>
+      <h2>El desafío</h2>
+      <p class="statement">En tres semanas cada equipo deberá publicar un juego breve, completo y entendible para alguien que nunca lo vio.</p>
+      <div class="constraint-line" aria-label="Condiciones del proyecto">
+        <span>Alcance pequeño</span>
+        <span>Build frecuente</span>
+        <span>Decisiones compartidas</span>
+      </div>
+      <aside class="speaker-notes">Aclarar qué significa “publicar”: un build que corre fuera del editor, con inicio, final y forma de reiniciar. Evitar que el desafío se mida por cantidad de contenido.</aside>
+    </section>
+
+    <section class="slide" data-title="Un equipo, tres miradas">
+      <div class="slide-number">02</div>
+      <p class="eyebrow">Clase 1 · Inicio</p>
+      <h2>Un equipo, tres miradas</h2>
+      <div class="disciplines">
+        <article>
+          <span class="discipline-index">A</span>
+          <h3>Arte</h3>
+          <p>Hace legible el mundo, construye identidad y define qué puede producirse a tiempo.</p>
+        </article>
+        <article>
+          <span class="discipline-index">P</span>
+          <h3>Programación</h3>
+          <p>Convierte reglas en comportamiento y sostiene un build que el equipo puede probar.</p>
+        </article>
+        <article>
+          <span class="discipline-index">D</span>
+          <h3>Diseño y producción</h3>
+          <p>Ordena la experiencia, reduce incertidumbre y mantiene visible el alcance.</p>
+        </article>
+      </div>
+      <aside class="speaker-notes">Pedir un ejemplo de una decisión que necesite a las tres disciplinas. Una mecánica de sigilo, por ejemplo, requiere reglas, lectura visual, feedback y planificación de contenido.</aside>
+    </section>
+
+    <section class="slide" data-title="Acuerdos de trabajo">
+      <div class="slide-number">03</div>
+      <p class="eyebrow">Clase 1 · Inicio</p>
+      <h2>Acuerdos de trabajo</h2>
+      <ol class="big-list">
+        <li><strong>El build manda.</strong><span>Una idea existe cuando se puede jugar.</span></li>
+        <li><strong>Los problemas aparecen temprano.</strong><span>Ocultarlos consume tiempo de todo el equipo.</span></li>
+        <li><strong>El alcance se negocia.</strong><span>Cortar también es diseñar.</span></li>
+        <li><strong>Cada tarea tiene una persona responsable.</strong><span>Responsable no significa trabajar en soledad.</span></li>
+      </ol>
+      <aside class="speaker-notes">Construir estos acuerdos con el curso. Si el grupo propone otros, registrarlos y reemplazar los ejemplos. Conviene cerrar con una definición común de “terminado”.</aside>
+    </section>
+
+    <section class="slide activity-slide" data-title="Taller: una página de juego">
+      <div class="slide-number">04</div>
+      <p class="eyebrow">Actividad · 35 minutos</p>
+      <h2>Una página de juego</h2>
+      <div class="activity-layout">
+        <div>
+          <p class="activity-prompt">Cada equipo resume su proyecto en una sola página que permita tomar decisiones mañana.</p>
+          <p class="deliverable">Entrega al final de la clase: hoja de concepto + primer tablero de tareas.</p>
+        </div>
+        <ol class="activity-steps">
+          <li><span>08’</span>Experiencia buscada y público</li>
+          <li><span>10’</span>Verbo principal y ciclo de juego</li>
+          <li><span>10’</span>Referencias visuales y límite técnico</li>
+          <li><span>07’</span>Riesgo principal y primer experimento</li>
+        </ol>
+      </div>
+      <aside class="speaker-notes">Circular entre equipos y atacar generalidades. “Divertido” no describe una experiencia. Pedir una frase observable: “el jugador duda antes de abrir cada puerta”.</aside>
+    </section>
+  </main>
+
+  <footer class="bottombar">
+    <button id="prevButton" type="button" aria-label="Diapositiva anterior">Anterior</button>
+    <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+    <span id="counter" class="counter">1 / 5</span>
+    <button id="nextButton" type="button" aria-label="Diapositiva siguiente">Siguiente</button>
+  </footer>
+
+  <dialog id="overview" class="overview">
+    <div class="overview-header">
+      <div><p class="eyebrow">Clase 1</p><h2>Cinco diapositivas</h2></div>
+      <button id="closeOverview" type="button">Cerrar</button>
+    </div>
+    <div id="overviewGrid" class="overview-grid"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
